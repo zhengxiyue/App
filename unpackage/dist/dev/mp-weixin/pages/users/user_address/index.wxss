@@ -1,0 +1,249 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/*引入主题变色的scss文件*/
+/* 颜色变量 */
+/*
+@mixin 指令允许我们定义一个可以在整个样式表中重复使用的样式。
+*/
+/*定义全局颜色变量*/
+/*主色*/
+/* 辅色*/
+/* 价格色*/
+/*左侧按钮*/
+/*主渐变色*/
+/*辅色渐变*/
+/* 行为相关颜色 */
+/* crmeb颜色变量 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/*字体颜色(少部分其他,不限于字体)*/
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.addAddress.data-v-1c98413a {
+  padding-top: 20rpx;
+}
+.bg_color.data-v-1c98413a {
+  background-color: theme;
+}
+[data-theme="theme1"] .bg_color.data-v-1c98413a {
+  background-color: #e93323 !important;
+}
+[data-theme="theme2"] .bg_color.data-v-1c98413a {
+  background-color: #FE5C2D !important;
+}
+[data-theme="theme3"] .bg_color.data-v-1c98413a {
+  background-color: #42CA4D !important;
+}
+[data-theme="theme4"] .bg_color.data-v-1c98413a {
+  background-color: #1DB0FC !important;
+}
+[data-theme="theme5"] .bg_color.data-v-1c98413a {
+  background-color: #FF448F !important;
+}
+.addAddress .list.data-v-1c98413a {
+  background-color: #fff;
+  padding: 0 24rpx;
+}
+.addAddress .list .item.data-v-1c98413a {
+  border-top: 1rpx solid #eee;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.addAddress .list .item .name.data-v-1c98413a {
+  font-size: 30rpx;
+  color: #333;
+}
+.addAddress .list .item .address.data-v-1c98413a {
+  flex: 1;
+  margin-left: 50rpx;
+}
+.addAddress .list .item input.data-v-1c98413a {
+  width: 475rpx;
+  font-size: 30rpx;
+  font-weight: 400;
+}
+.addAddress .list .item .placeholder.data-v-1c98413a {
+  color: #ccc;
+}
+.addAddress .list .item picker .picker.data-v-1c98413a {
+  width: 410rpx;
+  font-size: 30rpx;
+}
+.addAddress .default.data-v-1c98413a {
+  padding: 0 30rpx;
+  height: 90rpx;
+  background-color: #fff;
+  margin-top: 23rpx;
+}
+.addAddress .default checkbox.data-v-1c98413a {
+  margin-right: 15rpx;
+}
+.addAddress .keepBnt.data-v-1c98413a {
+  width: 690rpx;
+  height: 86rpx;
+  border-radius: 50rpx;
+  text-align: center;
+  line-height: 86rpx;
+  margin: 80rpx auto 24rpx auto;
+  font-size: 32rpx;
+  color: #fff;
+}
+.addAddress .wechatAddress.data-v-1c98413a {
+  width: 690rpx;
+  height: 86rpx;
+  border-radius: 50rpx;
+  text-align: center;
+  line-height: 86rpx;
+  margin: 0 auto;
+  font-size: 32rpx;
+  color: theme;
+  border: theme;
+}
+[data-theme="theme1"] .addAddress .wechatAddress.data-v-1c98413a {
+  color: #e93323 !important;
+}
+[data-theme="theme2"] .addAddress .wechatAddress.data-v-1c98413a {
+  color: #FE5C2D !important;
+}
+[data-theme="theme3"] .addAddress .wechatAddress.data-v-1c98413a {
+  color: #42CA4D !important;
+}
+[data-theme="theme4"] .addAddress .wechatAddress.data-v-1c98413a {
+  color: #1DB0FC !important;
+}
+[data-theme="theme5"] .addAddress .wechatAddress.data-v-1c98413a {
+  color: #FF448F !important;
+}
+[data-theme="theme1"] .addAddress .wechatAddress.data-v-1c98413a {
+  border: 1px solid #e93323;
+}
+[data-theme="theme2"] .addAddress .wechatAddress.data-v-1c98413a {
+  border: 1px solid #FE5C2D;
+}
+[data-theme="theme3"] .addAddress .wechatAddress.data-v-1c98413a {
+  border: 1px solid #42CA4D;
+}
+[data-theme="theme4"] .addAddress .wechatAddress.data-v-1c98413a {
+  border: 1px solid #1DB0FC;
+}
+[data-theme="theme5"] .addAddress .wechatAddress.data-v-1c98413a {
+  border: 1px solid #FF448F;
+}
+.font_color.data-v-1c98413a {
+  color: theme;
+}
+[data-theme="theme1"] .font_color.data-v-1c98413a {
+  color: #e93323 !important;
+}
+[data-theme="theme2"] .font_color.data-v-1c98413a {
+  color: #FE5C2D !important;
+}
+[data-theme="theme3"] .font_color.data-v-1c98413a {
+  color: #42CA4D !important;
+}
+[data-theme="theme4"] .font_color.data-v-1c98413a {
+  color: #1DB0FC !important;
+}
+[data-theme="theme5"] .font_color.data-v-1c98413a {
+  color: #FF448F !important;
+}
+.relative.data-v-1c98413a {
+  position: relative;
+}
+.icon-dizhi.data-v-1c98413a {
+  font-size: 44rpx;
+  z-index: 100;
+}
+.abs_right.data-v-1c98413a {
+  position: absolute;
+  right: 0;
+}
+.data-v-1c98413a checkbox .uni-checkbox-input.uni-checkbox-input-checked {
+  background-color: theme;
+  border: theme;
+  color: #fff !important;
+}
+[data-theme="theme1"].data-v-1c98413a checkbox .uni-checkbox-input.uni-checkbox-input-checked {
+  background-color: #e93323 !important;
+}
+[data-theme="theme2"].data-v-1c98413a checkbox .uni-checkbox-input.uni-checkbox-input-checked {
+  background-color: #FE5C2D !important;
+}
+[data-theme="theme3"].data-v-1c98413a checkbox .uni-checkbox-input.uni-checkbox-input-checked {
+  background-color: #42CA4D !important;
+}
+[data-theme="theme4"].data-v-1c98413a checkbox .uni-checkbox-input.uni-checkbox-input-checked {
+  background-color: #1DB0FC !important;
+}
+[data-theme="theme5"].data-v-1c98413a checkbox .uni-checkbox-input.uni-checkbox-input-checked {
+  background-color: #FF448F !important;
+}
+[data-theme="theme1"].data-v-1c98413a checkbox .uni-checkbox-input.uni-checkbox-input-checked {
+  border: 1px solid #e93323;
+}
+[data-theme="theme2"].data-v-1c98413a checkbox .uni-checkbox-input.uni-checkbox-input-checked {
+  border: 1px solid #FE5C2D;
+}
+[data-theme="theme3"].data-v-1c98413a checkbox .uni-checkbox-input.uni-checkbox-input-checked {
+  border: 1px solid #42CA4D;
+}
+[data-theme="theme4"].data-v-1c98413a checkbox .uni-checkbox-input.uni-checkbox-input-checked {
+  border: 1px solid #1DB0FC;
+}
+[data-theme="theme5"].data-v-1c98413a checkbox .uni-checkbox-input.uni-checkbox-input-checked {
+  border: 1px solid #FF448F;
+}
+.data-v-1c98413a checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background-color: theme;
+  border: theme;
+  color: #fff !important;
+  margin-right: 0 !important;
+}
+[data-theme="theme1"].data-v-1c98413a checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background-color: #e93323 !important;
+}
+[data-theme="theme2"].data-v-1c98413a checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background-color: #FE5C2D !important;
+}
+[data-theme="theme3"].data-v-1c98413a checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background-color: #42CA4D !important;
+}
+[data-theme="theme4"].data-v-1c98413a checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background-color: #1DB0FC !important;
+}
+[data-theme="theme5"].data-v-1c98413a checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background-color: #FF448F !important;
+}
+[data-theme="theme1"].data-v-1c98413a checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  border: 1px solid #e93323;
+}
+[data-theme="theme2"].data-v-1c98413a checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  border: 1px solid #FE5C2D;
+}
+[data-theme="theme3"].data-v-1c98413a checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  border: 1px solid #42CA4D;
+}
+[data-theme="theme4"].data-v-1c98413a checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  border: 1px solid #1DB0FC;
+}
+[data-theme="theme5"].data-v-1c98413a checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  border: 1px solid #FF448F;
+}
+

@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/orderGoods/index"],{"04f3":function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var n={props:{evaluate:{type:Number,default:0},cartInfo:{type:Array,default:function(){return[]}},orderId:{type:String,default:""},ids:{type:Number,default:0},jump:{type:Boolean,default:!1},orderProNum:{type:Number,default:function(){return 0}},productType:{type:Number,default:function(){return 0}}},data:function(){return{totalNmu:""}},watch:{cartInfo:function(t,e){var n=0;t.forEach((function(t,e){n+=t.cartNum})),this.totalNmu=n}},methods:{evaluateTap:function(e){t.navigateTo({url:"/pages/users/goods_comment_con/index?unique="+e.attrId+"&orderId="+this.orderId+"&id="+this.ids})},jumpCon:function(e){var n=0==this.productType?"normal":"video";this.jump&&t.navigateTo({url:"/pages/goods_details/index?id=".concat(e,"&type=").concat(n)})}}};e.default=n}).call(this,n("543d")["default"])},"1e87":function(t,e,n){"use strict";var u=n("fbb4"),r=n.n(u);r.a},"3cd1":function(t,e,n){"use strict";n.r(e);var u=n("04f3"),r=n.n(u);for(var a in u)"default"!==a&&function(t){n.d(e,t,(function(){return u[t]}))}(a);e["default"]=r.a},"93a1":function(t,e,n){"use strict";var u;n.d(e,"b",(function(){return r})),n.d(e,"c",(function(){return a})),n.d(e,"a",(function(){return u}));var r=function(){var t=this,e=t.$createElement;t._self._c},a=[]},eedd:function(t,e,n){"use strict";n.r(e);var u=n("93a1"),r=n("3cd1");for(var a in r)"default"!==a&&function(t){n.d(e,t,(function(){return r[t]}))}(a);n("1e87");var o,c=n("f0c5"),d=Object(c["a"])(r["default"],u["b"],u["c"],!1,null,"1d4990b6",null,!1,u["a"],o);e["default"]=d.exports},fbb4:function(t,e,n){}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/orderGoods/index-create-component',
+    {
+        'components/orderGoods/index-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("eedd"))
+        })
+    },
+    [['components/orderGoods/index-create-component']]
+]);

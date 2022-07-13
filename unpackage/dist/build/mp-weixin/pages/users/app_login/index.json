@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "绑定手机号",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "mobile-login": "/components/login_mobile/index"
+  }
+}

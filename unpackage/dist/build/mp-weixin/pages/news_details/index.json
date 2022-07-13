@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "资讯详情",
+  "usingComponents": {
+    "jyf-parser": "/components/jyf-parser/jyf-parser",
+    "share-info": "/components/shareInfo/index",
+    "home": "/components/home/index",
+    "bg-custom": "/components/bgCustom/index"
+  }
+}

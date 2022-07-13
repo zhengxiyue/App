@@ -1,0 +1,322 @@
+
+page {
+	background-color: #F5F5F5 !important;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/*引入主题变色的scss文件*/
+/* 颜色变量 */
+/*
+@mixin 指令允许我们定义一个可以在整个样式表中重复使用的样式。
+*/
+/*定义全局颜色变量*/
+/*主色*/
+/* 辅色*/
+/* 价格色*/
+/*左侧按钮*/
+/*主渐变色*/
+/*辅色渐变*/
+/* 行为相关颜色 */
+/* crmeb颜色变量 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/*字体颜色(少部分其他,不限于字体)*/
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.icon-xiangzuo.data-v-4f2faf7c {
+  font-size: 40rpx;
+  color: #fff;
+  position: fixed;
+  left: 30rpx;
+  z-index: 99;
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
+}
+.flash-sale .header.data-v-4f2faf7c {
+  width: 710rpx;
+  height: 330rpx;
+  margin: -276rpx auto 0 auto;
+  border-radius: 14rpx;
+  overflow: hidden;
+}
+.flash-sale .header swiper.data-v-4f2faf7c {
+  height: 330rpx !important;
+  border-radius: 14rpx;
+  overflow: hidden;
+}
+.flash-sale .header image.data-v-4f2faf7c {
+  width: 100%;
+  height: 100%;
+  border-radius: 14rpx;
+  overflow: hidden;
+}
+.flash-sale .header image ._img.data-v-4f2faf7c {
+  border-radius: 14rpx;
+}
+.flash-sale .seckillList.data-v-4f2faf7c {
+  padding: 25rpx;
+}
+.flash-sale .seckillList .priceTag.data-v-4f2faf7c {
+  width: 75rpx;
+  height: 70rpx;
+}
+.flash-sale .seckillList .priceTag image.data-v-4f2faf7c {
+  width: 100%;
+  height: 100%;
+}
+.flash-sale .timeLsit.data-v-4f2faf7c {
+  width: 596rpx;
+  white-space: nowrap;
+}
+.flash-sale .timeLsit .item.data-v-4f2faf7c {
+  display: inline-block;
+  font-size: 20rpx;
+  color: #666;
+  text-align: center;
+  box-sizing: border-box;
+  margin-right: 30rpx;
+  width: 130rpx;
+}
+.flash-sale .timeLsit .item .time.data-v-4f2faf7c {
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #333;
+}
+.flash-sale .timeLsit .item.on .time.data-v-4f2faf7c {
+  color: theme;
+}
+[data-theme="theme1"] .flash-sale .timeLsit .item.on .time.data-v-4f2faf7c {
+  color: #e93323 !important;
+}
+[data-theme="theme2"] .flash-sale .timeLsit .item.on .time.data-v-4f2faf7c {
+  color: #FE5C2D !important;
+}
+[data-theme="theme3"] .flash-sale .timeLsit .item.on .time.data-v-4f2faf7c {
+  color: #42CA4D !important;
+}
+[data-theme="theme4"] .flash-sale .timeLsit .item.on .time.data-v-4f2faf7c {
+  color: #1DB0FC !important;
+}
+[data-theme="theme5"] .flash-sale .timeLsit .item.on .time.data-v-4f2faf7c {
+  color: #FF448F !important;
+}
+.flash-sale .timeLsit .item.on .state.data-v-4f2faf7c {
+  height: 30rpx;
+  line-height: 30rpx;
+  border-radius: 15rpx;
+  width: 128rpx;
+  background-color: theme;
+  color: #fff;
+}
+[data-theme="theme1"] .flash-sale .timeLsit .item.on .state.data-v-4f2faf7c {
+  background-color: #e93323 !important;
+}
+[data-theme="theme2"] .flash-sale .timeLsit .item.on .state.data-v-4f2faf7c {
+  background-color: #FE5C2D !important;
+}
+[data-theme="theme3"] .flash-sale .timeLsit .item.on .state.data-v-4f2faf7c {
+  background-color: #42CA4D !important;
+}
+[data-theme="theme4"] .flash-sale .timeLsit .item.on .state.data-v-4f2faf7c {
+  background-color: #1DB0FC !important;
+}
+[data-theme="theme5"] .flash-sale .timeLsit .item.on .state.data-v-4f2faf7c {
+  background-color: #FF448F !important;
+}
+.flash-sale .countDown.data-v-4f2faf7c {
+  height: 92rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+  margin-top: -14rpx;
+  font-size: 28rpx;
+  color: #282828;
+}
+.flash-sale .countDown .num.data-v-4f2faf7c {
+  font-size: 28rpx;
+  font-weight: bold;
+  background-color: #ffcfcb;
+  padding: 4rpx 7rpx;
+  border-radius: 3rpx;
+}
+.flash-sale .countDown .text.data-v-4f2faf7c {
+  font-size: 28rpx;
+  color: #282828;
+  margin-right: 13rpx;
+}
+.flash-sale .list .item.data-v-4f2faf7c {
+  height: 230rpx;
+  position: relative;
+  /* width: 710rpx; */
+  margin: 0 auto 20rpx auto;
+  background-color: #fff;
+  border-radius: 14rpx;
+  padding: 25rpx 24rpx;
+}
+.flash-sale .list .item .pictrue.data-v-4f2faf7c {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 10rpx;
+  background-color: #F5F5F5;
+}
+.flash-sale .list .item .pictrue image.data-v-4f2faf7c {
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+}
+.flash-sale .list .item .text.data-v-4f2faf7c {
+  width: 440rpx;
+  font-size: 30rpx;
+  color: #333;
+  height: 166rpx;
+}
+.flash-sale .list .item .text .name.data-v-4f2faf7c {
+  width: 100%;
+}
+.flash-sale .list .item .text .money.data-v-4f2faf7c {
+  font-size: 30rpx;
+  color: theme;
+}
+[data-theme="theme1"] .flash-sale .list .item .text .money.data-v-4f2faf7c {
+  color: #F93323 !important;
+}
+[data-theme="theme2"] .flash-sale .list .item .text .money.data-v-4f2faf7c {
+  color: #FE5C2D !important;
+}
+[data-theme="theme3"] .flash-sale .list .item .text .money.data-v-4f2faf7c {
+  color: #FF7600 !important;
+}
+[data-theme="theme4"] .flash-sale .list .item .text .money.data-v-4f2faf7c {
+  color: #FD502F !important;
+}
+[data-theme="theme5"] .flash-sale .list .item .text .money.data-v-4f2faf7c {
+  color: #FF448F !important;
+}
+.flash-sale .list .item .text .money .num.data-v-4f2faf7c {
+  font-size: 40rpx;
+  font-weight: 500;
+  font-family: 'Guildford Pro';
+}
+.flash-sale .list .item .text .money .y_money.data-v-4f2faf7c {
+  font-size: 24rpx;
+  color: #999;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  margin-left: 15rpx;
+}
+.flash-sale .list .item .text .limit.data-v-4f2faf7c {
+  font-size: 22rpx;
+  color: #999;
+  margin-bottom: 5rpx;
+}
+.flash-sale .list .item .text .limit .limitPrice.data-v-4f2faf7c {
+  margin-left: 10rpx;
+}
+.flash-sale .list .item .text .progress.data-v-4f2faf7c {
+  overflow: hidden;
+  background-color: #EEEEEE;
+  width: 260rpx;
+  border-radius: 18rpx;
+  height: 18rpx;
+  position: relative;
+}
+.flash-sale .list .item .text .progress .bg-reds.data-v-4f2faf7c {
+  width: 0;
+  height: 100%;
+  transition: width 0.6s ease;
+  background: theme;
+}
+[data-theme="theme1"] .flash-sale .list .item .text .progress .bg-reds.data-v-4f2faf7c {
+  background: linear-gradient(90deg, #FFCA52 0%, #FE960F 100%);
+}
+[data-theme="theme2"] .flash-sale .list .item .text .progress .bg-reds.data-v-4f2faf7c {
+  background: linear-gradient(270deg, #FFAA36 0%, #FFC93A 100%);
+}
+[data-theme="theme3"] .flash-sale .list .item .text .progress .bg-reds.data-v-4f2faf7c {
+  background: linear-gradient(90deg, #FFB75A 0%, #FE960F 100%);
+}
+[data-theme="theme4"] .flash-sale .list .item .text .progress .bg-reds.data-v-4f2faf7c {
+  background: linear-gradient(90deg, #E4F1FD 0%, #C4D9EC 100%);
+}
+[data-theme="theme5"] .flash-sale .list .item .text .progress .bg-reds.data-v-4f2faf7c {
+  background: linear-gradient(90deg, #FEE04D 0%, #FEC34C 100%);
+}
+.flash-sale .list .item .text .progress .piece.data-v-4f2faf7c {
+  position: absolute;
+  left: 8%;
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+  top: 49%;
+  font-size: 16rpx;
+  color: #FFB9B9;
+}
+.flash-sale .list .item .grab.data-v-4f2faf7c {
+  font-size: 28rpx;
+  color: #fff;
+  width: 150rpx;
+  height: 54rpx;
+  border-radius: 27rpx;
+  text-align: center;
+  line-height: 54rpx;
+  position: absolute;
+  right: 30rpx;
+  bottom: 30rpx;
+  background: #bbbbbb;
+}
+.bg_color.data-v-4f2faf7c {
+  background-color: theme;
+}
+[data-theme="theme1"] .bg_color.data-v-4f2faf7c {
+  background-color: #e93323 !important;
+}
+[data-theme="theme2"] .bg_color.data-v-4f2faf7c {
+  background-color: #FE5C2D !important;
+}
+[data-theme="theme3"] .bg_color.data-v-4f2faf7c {
+  background-color: #42CA4D !important;
+}
+[data-theme="theme4"] .bg_color.data-v-4f2faf7c {
+  background-color: #1DB0FC !important;
+}
+[data-theme="theme5"] .bg_color.data-v-4f2faf7c {
+  background-color: #FF448F !important;
+}
+.flash-sale .saleBox.data-v-4f2faf7c {
+  width: 100%;
+  height: 298rpx;
+  height: 300rpx;
+  background-color: theme;
+  border-radius: 0 0 50rpx 50rpx;
+}
+[data-theme="theme1"] .flash-sale .saleBox.data-v-4f2faf7c {
+  background-color: #e93323 !important;
+}
+[data-theme="theme2"] .flash-sale .saleBox.data-v-4f2faf7c {
+  background-color: #FE5C2D !important;
+}
+[data-theme="theme3"] .flash-sale .saleBox.data-v-4f2faf7c {
+  background-color: #42CA4D !important;
+}
+[data-theme="theme4"] .flash-sale .saleBox.data-v-4f2faf7c {
+  background-color: #1DB0FC !important;
+}
+[data-theme="theme5"] .flash-sale .saleBox.data-v-4f2faf7c {
+  background-color: #FF448F !important;
+}
+

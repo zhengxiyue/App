@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "推广人列表",
+  "usingComponents": {
+    "loading": "/components/Loading/index",
+    "empty-page": "/components/emptyPage",
+    "authorize": "/components/Authorize",
+    "home": "/components/home/index"
+  }
+}

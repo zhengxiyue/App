@@ -1,0 +1,226 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/*引入主题变色的scss文件*/
+/* 颜色变量 */
+/*
+@mixin 指令允许我们定义一个可以在整个样式表中重复使用的样式。
+*/
+/*定义全局颜色变量*/
+/*主色*/
+/* 辅色*/
+/* 价格色*/
+/*左侧按钮*/
+/*主渐变色*/
+/*辅色渐变*/
+/* 行为相关颜色 */
+/* crmeb颜色变量 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/*字体颜色(少部分其他,不限于字体)*/
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background-color: theme;
+  height: 100vh;
+  overflow: auto;
+}
+[data-theme="theme1"] page {
+  background-color: #e93323 !important;
+}
+[data-theme="theme2"] page {
+  background-color: #FE5C2D !important;
+}
+[data-theme="theme3"] page {
+  background-color: #42CA4D !important;
+}
+[data-theme="theme4"] page {
+  background-color: #1DB0FC !important;
+}
+[data-theme="theme5"] page {
+  background-color: #FF448F !important;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/*引入主题变色的scss文件*/
+/* 颜色变量 */
+/*
+@mixin 指令允许我们定义一个可以在整个样式表中重复使用的样式。
+*/
+/*定义全局颜色变量*/
+/*主色*/
+/* 辅色*/
+/* 价格色*/
+/*左侧按钮*/
+/*主渐变色*/
+/*辅色渐变*/
+/* 行为相关颜色 */
+/* crmeb颜色变量 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/*字体颜色(少部分其他,不限于字体)*/
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/*砍价记录*/
+.bargain-record.data-v-7af2e664 {
+  padding: 0 30rpx 15rpx;
+}
+.bargain-record .item .picTxt .text .time.data-v-7af2e664 {
+  height: 36rpx;
+  line-height: 36rpx;
+}
+.bargain-record .item .picTxt .text .time .styleAll.data-v-7af2e664 {
+  color: #fc4141;
+  font-size: 24rpx;
+}
+.bargain-record .item .picTxt .text .time .red.data-v-7af2e664 {
+  color: #999;
+  font-size: 24rpx;
+}
+.bargain-record .item.data-v-7af2e664 {
+  background-color: #fff;
+  margin-top: 15rpx;
+  padding: 30rpx 24rpx 0 24rpx;
+}
+.bargain-record .item .picTxt.data-v-7af2e664 {
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 30rpx;
+}
+.bargain-record .item .picTxt .pictrue.data-v-7af2e664 {
+  width: 150rpx;
+  height: 150rpx;
+}
+.bargain-record .item .picTxt .pictrue image.data-v-7af2e664 {
+  width: 100%;
+  height: 100%;
+  border-radius: 6rpx;
+}
+.bargain-record .item .picTxt .text.data-v-7af2e664 {
+  width: 470rpx;
+  font-size: 30rpx;
+  color: #333333;
+  height: 160rpx;
+}
+.bargain-record .item .picTxt .text .time.data-v-7af2e664 {
+  font-size: 24rpx;
+  color: #868686;
+  justify-content: left !important;
+}
+.bargain-record .item .picTxt .text .successTxt.data-v-7af2e664 {
+  font-size: 24rpx;
+}
+.bargain-record .item .picTxt .text .endTxt.data-v-7af2e664 {
+  font-size: 24rpx;
+  color: #999;
+}
+.bargain-record .item .picTxt .text .money.data-v-7af2e664 {
+  font-size: 24rpx;
+  color: #999999;
+}
+.bargain-record .item .picTxt .text .money .num.data-v-7af2e664 {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.bargain-record .item .picTxt .text .money .symbol.data-v-7af2e664 {
+  font-weight: bold;
+}
+.bargain-record .item .bottom.data-v-7af2e664 {
+  height: 100rpx;
+  font-size: 27rpx;
+}
+.bargain-record .item .bottom .purple.data-v-7af2e664 {
+  color: #f78513;
+}
+.bargain-record .item .bottom .end.data-v-7af2e664 {
+  color: #999;
+}
+.bargain-record .item .bottom .success.data-v-7af2e664 {
+  color: #E93323;
+}
+.bargain-record .item .bottom .bnt.data-v-7af2e664 {
+  font-size: 27rpx;
+  color: #fff;
+  width: 176rpx;
+  height: 60rpx;
+  border-radius: 32rpx;
+  text-align: center;
+  line-height: 60rpx;
+}
+.bg_color.data-v-7af2e664 {
+  background-color: theme;
+}
+[data-theme="theme1"] .bg_color.data-v-7af2e664 {
+  background-color: #e93323 !important;
+}
+[data-theme="theme2"] .bg_color.data-v-7af2e664 {
+  background-color: #FE5C2D !important;
+}
+[data-theme="theme3"] .bg_color.data-v-7af2e664 {
+  background-color: #42CA4D !important;
+}
+[data-theme="theme4"] .bg_color.data-v-7af2e664 {
+  background-color: #1DB0FC !important;
+}
+[data-theme="theme5"] .bg_color.data-v-7af2e664 {
+  background-color: #FF448F !important;
+}
+.font_color.data-v-7af2e664 {
+  color: theme;
+}
+[data-theme="theme1"] .font_color.data-v-7af2e664 {
+  color: #F93323 !important;
+}
+[data-theme="theme2"] .font_color.data-v-7af2e664 {
+  color: #FE5C2D !important;
+}
+[data-theme="theme3"] .font_color.data-v-7af2e664 {
+  color: #FF7600 !important;
+}
+[data-theme="theme4"] .font_color.data-v-7af2e664 {
+  color: #FD502F !important;
+}
+[data-theme="theme5"] .font_color.data-v-7af2e664 {
+  color: #FF448F !important;
+}
+.bargain-record .item .bottom .bnt.cancel.data-v-7af2e664 {
+  color: #aaa;
+  border: 1px solid #ddd;
+}
+.bargain-record .item .bottom .bnt ~ .bnt.data-v-7af2e664 {
+  margin-left: 18rpx;
+}
+

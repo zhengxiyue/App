@@ -1,0 +1,1 @@
+.font_color{color:theme}[data-theme="theme1"] .font_color{color:#e93323!important}[data-theme="theme2"] .font_color{color:#fe5c2d!important}[data-theme="theme3"] .font_color{color:#42ca4d!important}[data-theme="theme4"] .font_color{color:#1db0fc!important}[data-theme="theme5"] .font_color{color:#ff448f!important}

@@ -1,0 +1,14 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "jyf-parser": "/components/jyf-parser/jyf-parser",
+    "cus-preview-img": "/components/cus-previewImg/cus-previewImg",
+    "share-red-packets": "/components/shareRedPackets/index",
+    "product-con-swiper": "/components/productConSwiper/index",
+    "authorize": "/components/Authorize",
+    "home": "/components/home/index",
+    "product-window": "/components/productWindow/index",
+    "user-evaluation": "/components/userEvaluation/index",
+    "count-down": "/components/countDown/index"
+  }
+}

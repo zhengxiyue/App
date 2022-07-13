@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/*引入主题变色的scss文件*/
+/* 颜色变量 */
+/*
+@mixin 指令允许我们定义一个可以在整个样式表中重复使用的样式。
+*/
+/*定义全局颜色变量*/
+/*主色*/
+/* 辅色*/
+/* 价格色*/
+/*左侧按钮*/
+/*主渐变色*/
+/*辅色渐变*/
+/* 行为相关颜色 */
+/* crmeb颜色变量 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/*字体颜色(少部分其他,不限于字体)*/
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.my-promotion .header.data-v-df046674 {
+  width: 100%;
+  height: 375rpx;
+  position: relative;
+}
+.head_img.data-v-df046674 {
+  width: 100%;
+  height: 375rpx;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+.head_box.data-v-df046674 {
+  width: 100%;
+  height: 375rpx;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  background-color: theme;
+}
+[data-theme="theme1"] .head_box.data-v-df046674 {
+  background-color: #e93323 !important;
+}
+[data-theme="theme2"] .head_box.data-v-df046674 {
+  background-color: #FE5C2D !important;
+}
+[data-theme="theme3"] .head_box.data-v-df046674 {
+  background-color: #42CA4D !important;
+}
+[data-theme="theme4"] .head_box.data-v-df046674 {
+  background-color: #1DB0FC !important;
+}
+[data-theme="theme5"] .head_box.data-v-df046674 {
+  background-color: #FF448F !important;
+}
+.my-promotion .header .name.data-v-df046674 {
+  font-size: 30rpx;
+  color: #fff;
+  padding-top: 57rpx;
+  position: relative;
+}
+.my-promotion .header .record.data-v-df046674 {
+  font-size: 26rpx;
+  color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  right: 20rpx;
+  top: 60rpx;
+  z-index: 10;
+}
+.my-promotion .header .record .iconfont.data-v-df046674 {
+  font-size: 25rpx;
+  margin-left: 10rpx;
+  vertical-align: 2rpx;
+}
+.my-promotion .header .num.data-v-df046674 {
+  text-align: center;
+  color: #fff;
+  margin-top: 28rpx;
+  font-size: 90rpx;
+  font-family: 'Guildford Pro';
+}
+.my-promotion .header .profit.data-v-df046674 {
+  padding: 0 20rpx;
+  margin-top: 35rpx;
+  font-size: 24rpx;
+  color: rgba(255, 255, 255, 0.8);
+}
+.my-promotion .header .profit .item.data-v-df046674 {
+  min-width: 200rpx;
+  text-align: center;
+}
+.my-promotion .header .profit .item .money.data-v-df046674 {
+  font-size: 34rpx;
+  color: #fff;
+  margin-top: 5rpx;
+}
+.my-promotion .bnt.data-v-df046674 {
+  font-size: 28rpx;
+  color: #fff;
+  width: 278rpx;
+  height: 108rpx;
+  box-sizing: border-box;
+  border: 20rpx solid #f5f5f5;
+  border-radius: 50rpx;
+  text-align: center;
+  line-height: 68rpx;
+  margin: -52rpx auto 0 auto;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+.bg_color.data-v-df046674 {
+  background-color: theme;
+}
+[data-theme="theme1"] .bg_color.data-v-df046674 {
+  background-color: #e93323 !important;
+}
+[data-theme="theme2"] .bg_color.data-v-df046674 {
+  background-color: #FE5C2D !important;
+}
+[data-theme="theme3"] .bg_color.data-v-df046674 {
+  background-color: #42CA4D !important;
+}
+[data-theme="theme4"] .bg_color.data-v-df046674 {
+  background-color: #1DB0FC !important;
+}
+[data-theme="theme5"] .bg_color.data-v-df046674 {
+  background-color: #FF448F !important;
+}
+.my-promotion .list.data-v-df046674 {
+  padding: 0 30rpx 50rpx 30rpx;
+  margin-top: 60rpx;
+}
+.my-promotion .list .item.data-v-df046674 {
+  width: 335rpx;
+  height: 240rpx;
+  border-radius: 14rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  color: #666;
+}
+.my-promotion .list .item .iconfont.data-v-df046674 {
+  font-size: 70rpx;
+  background-color: theme;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20rpx;
+}
+[data-theme="theme1"] .my-promotion .list .item .iconfont.data-v-df046674 {
+  background-color: #e93323 !important;
+}
+[data-theme="theme2"] .my-promotion .list .item .iconfont.data-v-df046674 {
+  background-color: #FE5C2D !important;
+}
+[data-theme="theme3"] .my-promotion .list .item .iconfont.data-v-df046674 {
+  background-color: #42CA4D !important;
+}
+[data-theme="theme4"] .my-promotion .list .item .iconfont.data-v-df046674 {
+  background-color: #1DB0FC !important;
+}
+[data-theme="theme5"] .my-promotion .list .item .iconfont.data-v-df046674 {
+  background-color: #FF448F !important;
+}
+

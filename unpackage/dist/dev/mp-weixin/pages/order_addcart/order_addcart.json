@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "购物车",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "recommend": "/components/recommend/index",
+    "product-window": "/components/productWindow/index",
+    "authorize": "/components/Authorize"
+  }
+}

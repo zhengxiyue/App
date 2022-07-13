@@ -1,0 +1,42 @@
+
+.p6.data-v-e5c41dae{
+	padding: 0 8rpx;
+}
+.styleAll.data-v-e5c41dae{
+	/* color: #fff; */
+	font-size: 24rpx;
+	height: 36rpx;
+	line-height: 36rpx;
+	border-radius: 6rpx;
+	text-align: center;
+	/* padding: 0 6rpx; */
+}
+.timeTxt.data-v-e5c41dae{
+	    text-align: center;
+	    /* width: 16rpx; */
+	    height: 36rpx;
+	    line-height: 36rpx;
+	    display: inline-block;
+}
+.whit.data-v-e5c41dae{
+	color: #fff !important;
+}
+.time.data-v-e5c41dae {
+	display: flex;
+	justify-content: center;
+}
+.red.data-v-e5c41dae {
+	color: #fc4141;
+	margin: 0 4rpx;
+}
+.timeCol.data-v-e5c41dae {
+	/* width: 40rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	text-align:center;
+	border-radius: 6px;
+	background: #fff;
+	font-size: 24rpx; */
+	color: #E93323;
+}
+

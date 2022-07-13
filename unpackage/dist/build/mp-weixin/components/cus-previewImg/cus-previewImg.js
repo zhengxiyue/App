@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/cus-previewImg/cus-previewImg"],{"059e":function(t,e,n){"use strict";var r=n("a6e9"),u=n.n(r);u.a},"60c2":function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var r={name:"cus-previewImg",props:{list:{type:Array,required:!0,default:function(){return[]}},circular:{type:Boolean,default:!0},duration:{type:Number,default:500}},data:function(){return{currentIndex:0,showBox:!1}},watch:{list:function(t){}},methods:{changeSwiper:function(t){this.currentIndex=t.target.current,this.$emit("changeSwitch",t.target.current)},open:function(t){t&&this.list.length&&(this.currentIndex=this.list.map((function(t){return t.suk})).indexOf(t),this.showBox=!0)},close:function(){this.showBox=!1},shareFriend:function(){this.$emit("shareFriend")}}};e.default=r},a2c7:function(t,e,n){"use strict";n.r(e);var r=n("eccd"),u=n("ac8a");for(var c in u)"default"!==c&&function(t){n.d(e,t,(function(){return u[t]}))}(c);n("059e");var i,a=n("f0c5"),o=Object(a["a"])(u["default"],r["b"],r["c"],!1,null,"fc1307be",null,!1,r["a"],i);e["default"]=o.exports},a6e9:function(t,e,n){},ac8a:function(t,e,n){"use strict";n.r(e);var r=n("60c2"),u=n.n(r);for(var c in r)"default"!==c&&function(t){n.d(e,t,(function(){return r[t]}))}(c);e["default"]=u.a},eccd:function(t,e,n){"use strict";var r;n.d(e,"b",(function(){return u})),n.d(e,"c",(function(){return c})),n.d(e,"a",(function(){return r}));var u=function(){var t=this,e=t.$createElement,n=(t._self._c,t.showBox&&t.list.length>0?Number(t.currentIndex):null);t.$mp.data=Object.assign({},{$root:{m0:n}})},c=[]}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/cus-previewImg/cus-previewImg-create-component',
+    {
+        'components/cus-previewImg/cus-previewImg-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("a2c7"))
+        })
+    },
+    [['components/cus-previewImg/cus-previewImg-create-component']]
+]);

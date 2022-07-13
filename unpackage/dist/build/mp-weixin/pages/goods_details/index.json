@@ -1,0 +1,13 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "jyf-parser": "/components/jyf-parser/jyf-parser",
+    "cus-preview-img": "/components/cus-previewImg/cus-previewImg",
+    "product-con-swiper": "/components/productConSwiper/index",
+    "coupon-list-window": "/components/couponListWindow/index",
+    "product-window": "/components/productWindow/index",
+    "user-evaluation": "/components/userEvaluation/index",
+    "share-red-packets": "/components/shareRedPackets/index",
+    "authorize": "/components/Authorize"
+  }
+}

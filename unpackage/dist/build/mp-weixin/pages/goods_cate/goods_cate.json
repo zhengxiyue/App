@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "商品分类",
+  "usingComponents": {
+    "cate": "/pages/goods_cate/components/default_cate",
+    "optimization": "/pages/goods_cate/components/optimization",
+    "contracted": "/pages/goods_cate/components/contracted",
+    "fresh": "/pages/goods_cate/components/fresh",
+    "home": "/components/home/index"
+  }
+}

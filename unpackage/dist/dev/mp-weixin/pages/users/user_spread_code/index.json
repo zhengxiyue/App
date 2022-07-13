@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "分销海报",
+  "usingComponents": {
+    "authorize": "/components/Authorize",
+    "home": "/components/home/index"
+  }
+}

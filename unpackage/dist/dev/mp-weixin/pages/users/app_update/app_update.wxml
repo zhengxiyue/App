@@ -1,0 +1,1 @@
+<view class="app_update"><view class="logo_box"><image src="../../../static/images/crmeb_java.png"></image><view class="title">crmeb</view><view class="version">{{"Version "+appUpdate.versionCode}}</view></view><view data-event-opts="{{[['tap',[['appVersionConfig']]]]}}" class="jiancha" bindtap="__e"><text>检查新版本</text><text class="iconfont icon-you"></text></view></view>

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "砍价列表",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "count-down": "/components/countDown/index",
+    "home": "/components/home/index",
+    "authorize": "/components/Authorize"
+  }
+}

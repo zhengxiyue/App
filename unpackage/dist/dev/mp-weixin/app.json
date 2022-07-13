@@ -1,0 +1,137 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order_addcart/order_addcart",
+    "pages/user/index",
+    "pages/goods_details/index",
+    "pages/goods_cate/goods_cate",
+    "pages/goods_list/index",
+    "pages/news_list/index",
+    "pages/news_details/index",
+    "pages/goods_search/index",
+    "pages/order_pay_status/index",
+    "pages/order_details/index",
+    "pages/index/components/a_seckill",
+    "pages/index/components/b_combination",
+    "pages/goods_cate/components/default_cate",
+    "pages/goods_cate/components/optimization",
+    "components/d_goodList/index",
+    "pages/goods_cate/components/fresh",
+    "pages/goods_cate/components/contracted",
+    "components/f_goodList/index",
+    "pages/index/components/promotion",
+    "pages/index/components/goodsRank"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/users",
+      "pages": [
+        "web_page/index",
+        "user_info/index",
+        "user_get_coupon/index",
+        "user_goods_collection/index",
+        "user_sgin/index",
+        "user_sgin_list/index",
+        "user_money/index",
+        "user_bill/index",
+        "user_integral/index",
+        "user_coupon/index",
+        "user_spread_user/index",
+        "user_spread_code/index",
+        "user_spread_money/index",
+        "user_cash/index",
+        "user_vip/index",
+        "user_address_list/index",
+        "user_address/index",
+        "user_phone/index",
+        "user_payment/index",
+        "user_pwd_edit/index",
+        "order_confirm/index",
+        "goods_details_store/index",
+        "promoter-list/index",
+        "promoter-order/index",
+        "promoter_rank/index",
+        "commission_rank/index",
+        "order_list/index",
+        "goods_logistics/index",
+        "user_return_list/index",
+        "goods_return/index",
+        "login/index",
+        "goods_comment_list/index",
+        "goods_comment_con/index",
+        "wechat_login/index",
+        "app_login/index",
+        "alipay_return/alipay_return",
+        "alipay_invoke/index",
+        "app_update/app_update"
+      ],
+      "name": "users"
+    },
+    {
+      "root": "pages/activity",
+      "pages": [
+        "goods_bargain/index",
+        "goods_bargain_details/index",
+        "goods_combination/index",
+        "goods_combination_details/index",
+        "goods_combination_status/index",
+        "goods_seckill/index",
+        "goods_seckill_details/index",
+        "poster-poster/index",
+        "bargain/index",
+        "promotionList/index"
+      ],
+      "name": "activity"
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "crmeb",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8",
+    "titleNView": false,
+    "rpxCalcMaxDeviceWidth": 960,
+    "rpxCalcBaseDeviceWidth": 375,
+    "rpxCalcIncludeWidth": 750
+  },
+  "tabBar": {
+    "color": "#282828",
+    "selectedColor": "#fc4141",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabBar/index.png",
+        "selectedIconPath": "static/tabBar/indexd.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/goods_cate/goods_cate",
+        "iconPath": "static/tabBar/cate.png",
+        "selectedIconPath": "static/tabBar/cated.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/order_addcart/order_addcart",
+        "iconPath": "static/tabBar/cart.png",
+        "selectedIconPath": "static/tabBar/cartd.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/tabBar/user.png",
+        "selectedIconPath": "static/tabBar/userd.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于和门店的距离长度"
+    }
+  },
+  "usingComponents": {
+    "skeleton": "/components/skeleton/index"
+  }
+}

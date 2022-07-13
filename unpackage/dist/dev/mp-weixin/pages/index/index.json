@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "seckill": "/pages/index/components/a_seckill",
+    "combination": "/pages/index/components/b_combination",
+    "bargain": "/pages/index/components/c_bargain",
+    "coupons": "/pages/index/components/d_coupons",
+    "goods-rank": "/pages/index/components/goodsRank",
+    "promotion": "/pages/index/components/promotion",
+    "loading": "/components/Loading/index",
+    "a-tip": "/components/add-tips/index",
+    "at-model": "/components/accredit/index"
+  }
+}

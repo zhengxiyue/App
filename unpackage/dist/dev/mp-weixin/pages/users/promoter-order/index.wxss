@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/*引入主题变色的scss文件*/
+/* 颜色变量 */
+/*
+@mixin 指令允许我们定义一个可以在整个样式表中重复使用的样式。
+*/
+/*定义全局颜色变量*/
+/*主色*/
+/* 辅色*/
+/* 价格色*/
+/*左侧按钮*/
+/*主渐变色*/
+/*辅色渐变*/
+/* 行为相关颜色 */
+/* crmeb颜色变量 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/*字体颜色(少部分其他,不限于字体)*/
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.promoter-order .list .item .title.data-v-6c1cbc96 {
+  height: 133rpx;
+  font-size: 26rpx;
+  color: #999;
+}
+.promoterHeader.data-v-6c1cbc96 {
+  background-color: theme;
+}
+[data-theme="theme1"] .promoterHeader.data-v-6c1cbc96 {
+  background-color: #e93323 !important;
+}
+[data-theme="theme2"] .promoterHeader.data-v-6c1cbc96 {
+  background-color: #FE5C2D !important;
+}
+[data-theme="theme3"] .promoterHeader.data-v-6c1cbc96 {
+  background-color: #42CA4D !important;
+}
+[data-theme="theme4"] .promoterHeader.data-v-6c1cbc96 {
+  background-color: #1DB0FC !important;
+}
+[data-theme="theme5"] .promoterHeader.data-v-6c1cbc96 {
+  background-color: #FF448F !important;
+}
+.promoter-order .list .item .title .data.data-v-6c1cbc96 {
+  font-size: 28rpx;
+  color: #282828;
+  margin-bottom: 5rpx;
+}
+.promoter-order .list .item .listn .itenm.data-v-6c1cbc96 {
+  background-color: #fff;
+}
+.promoter-order .list .item .listn .itenm ~ .itenm.data-v-6c1cbc96 {
+  margin-top: 20rpx;
+}
+.promoter-order .list .item .listn .itenm .top.data-v-6c1cbc96 {
+  padding: 0 24rpx;
+  border-bottom: 1rpx solid #eee;
+  height: 100rpx;
+}
+.promoter-order .list .item .listn .itenm .top .pictxt.data-v-6c1cbc96 {
+  width: 320rpx;
+}
+.promoter-order .list .item .listn .itenm .top .pictxt .text.data-v-6c1cbc96 {
+  width: 230rpx;
+  font-size: 30rpx;
+  color: #282828;
+}
+.promoter-order .list .item .listn .itenm .top .pictxt .pictrue.data-v-6c1cbc96 {
+  width: 66rpx;
+  height: 66rpx;
+}
+.promoter-order .list .item .listn .itenm .top .pictxt .pictrue image.data-v-6c1cbc96 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3rpx solid #fff;
+  box-sizing: border-box;
+  box-shadow: 0 0 15rpx #aaa;
+}
+.promoter-order .list .item .listn .itenm .top .money.data-v-6c1cbc96 {
+  font-size: 28rpx;
+}
+.promoter-order .list .item .listn .itenm .bottom.data-v-6c1cbc96 {
+  padding: 20rpx 24rpx;
+  font-size: 28rpx;
+  color: #666;
+  line-height: 1.6;
+}
+.promoter-order .list .item .listn .itenm .bottom .name.data-v-6c1cbc96 {
+  color: #999;
+}
+
